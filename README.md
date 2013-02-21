@@ -1,7 +1,7 @@
 lagze
 =====
 
-Galaxy spectral energy distribution fitting, using existing python tools and libraries.
+Bayesian galaxy spectral energy distribution fitting.
 
 Launched 2013 February 21
 Leonidas Moustakas, JPL/Caltech
@@ -13,6 +13,10 @@ Suites used:
 * ezgal
 
 * astLib.astSED
+
+Simple stellar population synthesis models used:
+* Maraston 2005
+* 
 
 Launched 2013 February 21
 Leonidas Moustakas, JPL/Caltech
