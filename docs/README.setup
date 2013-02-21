@@ -1,0 +1,14 @@
+Make sure that some environment variables are set up in a startup file.
+
+# EZGAL
+set path=(/Users/leonidas/research/local/python/ezgal $path)
+setenv EZGAL_MODELS /Users/leonidas/research/data/ezgal/models/
+setenv EZGAL_FILTERS /Users/leonidas/research/data/ezgal/filters/
+setenv PYTHONPATH {$PYTHONPATH}:{/Users/leonidas/research/local/python/ezgal}
+
+Note data on many SSPs are in the ~/research/data/ directories, such as 
+/Users/leonidas/research/data/SSPs/Maraston2005
+
+References --
+http://astlib.sourceforge.net/docs/astLib/astLib.astSED-module.html#mag2Jy
+
