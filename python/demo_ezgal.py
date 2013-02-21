@@ -1,7 +1,9 @@
 #!/usr/bin/env python
 import ezgal
 import matplotlib.pyplot as plt
+import numpy as np
 
+# m=ezgal.ezgal('p2_ssp_z_0.02_salp.model',data_dir='/Users/leonidas/research/data/ezgal/')
 m=ezgal.ezgal('p2_ssp_z_0.02_salp.model')
 m.add_filter('wfc3_f160w')
 zf=3.0
